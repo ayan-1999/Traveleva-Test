@@ -1,0 +1,49 @@
+.container {
+  margin-top: 32px;
+  padding: 0 80px;
+}
+.navigation {
+  margin-bottom: 22px;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.navigationTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.navigation ul li .tab {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #7f7d83;
+  cursor: pointer;
+}
+.navigation ul li .navigationTab.active .tab {
+  color: #0a090b;
+}
+.notificationValue {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f4d55;
+}
+.navigationTab.active .notificationValue {
+  background-color: #1751d0;
+  color: #e6e6e6;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}

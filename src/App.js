@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Body from "./components/body/Body";
+import Navbar from "./components/nav/Navbar";
 
 function App() {
+  const [appData, setAppData] = useState({});
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("/dummydata/data.json");
+      const data = await response.json();
+      setAppData(data.page);
+    };
+    fetchData();
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar searchBar={appData?.searchBar} addButton={appData?.addButton} />
+      <Body appData={appData} />
     </div>
   );
 }

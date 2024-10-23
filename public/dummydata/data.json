@@ -1,0 +1,100 @@
+{
+  "page": {
+    "title": "Dashboard",
+    "tabs": ["Tasks", "Notifications"],
+    "activeTab": "Tasks",
+    "searchBar": {
+      "placeholder": "Search"
+    },
+    "tasks": [
+      {
+        "title": "Update user flows with UX feedback from Session #245",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3", "user4"],
+        "icons": ["jira", "figma"],
+        "progress":89
+      },
+      {
+        "title": "Wireframe splash page for new sales funnel",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3"],
+        "icons": ["adobe-xd"],
+        "progress":45
+      },
+      {
+        "title": "Contact bank regarding suspicious activity on credit card",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3", "user4"],
+        "icons": ["google"],
+        "progress":75
+      },
+      {
+        "title": "Update user flows with UX feedback from Session #245",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "completed",
+        "teamMembers": ["user1", "user2", "user3", "user4"],
+        "icons": ["jira"],
+        "progress":100
+      },
+      {
+        "title": "Contact bank regarding suspicious activity on credit card",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3", "user4"],
+        "icons": ["asana", "google"],
+        "progress":69
+      },
+      {
+        "title": "Update user flows with UX feedback from Session #245",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3", "user4","user5","user6","user7","user8","user9","user10","user11","user12"],
+        "icons": ["jira"],
+        "progress":50
+      },
+      {
+        "title": "Update user flows with UX feedback from Session #245",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "completed",
+        "teamMembers": ["user4","user1",  "user3", "user2","user5","user8"],
+        "icons": ["jira", "figma"],
+        "progress":100
+      },
+      {
+        "title": "Wireframe splash page for new sales funnel",
+        "startDate": "Nov 12",
+        "endDate": "Dec 12",
+        "lastUpdated": "10 Dec, 2022",
+        "status": "in-progress",
+        "teamMembers": ["user1", "user2", "user3"],
+        "icons": ["adobe-xd"],
+        "progress":50
+      }
+    ],
+    "notifications": {
+      "count": 11
+    },
+    "taskCount": 6,
+    "addButton": {
+      "icon": "plus",
+      "tooltip": "Add Task"
+    }
+  }
+}
