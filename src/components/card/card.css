@@ -1,5 +1,5 @@
 .card {
-  width: 306.5px;
+  max-width: 420px;
   background-color: #ffffff;
   padding: 24px;
   border-radius: 16px;
@@ -7,6 +7,9 @@
   box-shadow: 0px 0px 3px -1px #0a090b0a;
   box-shadow: 0px 16px 24px -6px #0a090b14;
   font-size: small;
+  @media screen and (max-width: 560px) {
+    max-width: unset;
+  }
 }
 .cardContainer {
   display: flex;
@@ -71,9 +74,11 @@
 .cardDuration .dates span {
   margin-left: 8px;
   font-size: 14px;
-  font-weight: 475;
   line-height: 20px;
   text-align: left;
+}
+.cardDuration .dates span b {
+  font-weight: 500;
 }
 .lastSection {
   display: flex;
@@ -107,6 +112,9 @@
   margin-right: -10px;
   border: 2px solid white;
 }
+.avatar:last-child{
+  margin-right: 0;
+}
 .avatar img {
   width: 100%;
   height: 100%;
@@ -121,6 +129,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
 }
 .outer {
   width: 100%;

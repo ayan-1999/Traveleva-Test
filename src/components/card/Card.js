@@ -58,13 +58,17 @@ const Card = ({
                 <div className="dates">
                   <CgCalendarTwo />
 
-                  <span>Start: {startDate}</span>
+                  <span>
+                    Start: <b>{startDate}</b>
+                  </span>
                 </div>
                 <span className="dot">∙</span>
                 <div className="dates">
                   <TbTargetArrow />
 
-                  <span>End:{endDate}</span>
+                  <span>
+                    End: <b>{endDate}</b>
+                  </span>
                 </div>
               </div>
 

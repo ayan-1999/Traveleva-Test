@@ -7,9 +7,11 @@ export const companyImgsUrl = {
   google:
     "https://static-00.iconduck.com/assets.00/google-icon-2048x2048-pks9lbdv.png",
   asana:
-    "https://logosandtypes.com/wp-content/uploads/2020/11/Asana.png",
+    "https://images.softwaresuggest.com/software_logo/attentive-20231017165342.png",
   github:
     "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png",
+  twitter: "https://cdn-icons-png.flaticon.com/512/2496/2496110.png",
+  spotify: "https://developer.spotify.com/images/guidelines/design/icon3.svg",
   default:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYIW_N9YlI6lLosi21BDJzVGR35E61y6mAw&s",
 };

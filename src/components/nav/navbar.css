@@ -1,8 +1,12 @@
 nav {
   width: 100%;
   display: flex;
+  align-items: center;
   gap: 8px;
   padding: 24px;
+  @media screen and (max-width: 560px) {
+    padding: 16px;
+  }
 }
 
 .logo {
@@ -12,8 +16,10 @@ nav {
   border-radius: 8px;
   font-size: 20px;
   display: flex;
+  flex: none;
   justify-content: left;
   align-items: center;
+  border: 1px solid #dddddd;
 }
 .logo img {
   width: 100%;
@@ -36,15 +42,16 @@ nav {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: center;
   background-color: black;
   cursor: pointer;
+  flex: none;
 }
 .options a {
-  display: block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .options .optionIcon {
   width: 16px;
