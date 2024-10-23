@@ -1,11 +1,11 @@
 .container {
   margin-top: 32px;
-  padding: 0 80px;
-  @media screen and (max-width: 920px) {
+  padding: 0 16px;
+  @media screen and (min-width: 560px) {
     padding: 0 24px;
   }
-  @media screen and (max-width: 560px) {
-    padding: 0 16px;
+  @media screen and (min-width: 920px) {
+    padding: 0 80px;
   }
 }
 .navigation {
@@ -49,16 +49,16 @@
 }
 .content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   gap: 18px 24px;
 
-  @media screen and (max-width: 1200px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @media screen and (max-width: 920px) {
+  @media screen and (min-width: 560px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 560px) {
-    grid-template-columns: 1fr;
+  @media screen and (min-width: 920px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

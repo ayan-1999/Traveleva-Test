@@ -1,5 +1,4 @@
 .card {
-  max-width: 420px;
   background-color: #ffffff;
   padding: 24px;
   border-radius: 16px;
@@ -7,8 +6,8 @@
   box-shadow: 0px 0px 3px -1px #0a090b0a;
   box-shadow: 0px 16px 24px -6px #0a090b14;
   font-size: small;
-  @media screen and (max-width: 560px) {
-    max-width: unset;
+  @media screen and (min-width: 560px) {
+    max-width: 420px;
   }
 }
 .cardContainer {
@@ -112,7 +111,7 @@
   margin-right: -10px;
   border: 2px solid white;
 }
-.avatar:last-child{
+.avatar:last-child {
   margin-right: 0;
 }
 .avatar img {

@@ -3,9 +3,9 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 24px;
-  @media screen and (max-width: 560px) {
-    padding: 16px;
+  padding: 16px;
+  @media screen and (min-width: 560px) {
+    padding: 24px;
   }
 }
 
